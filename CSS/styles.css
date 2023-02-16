@@ -1,0 +1,193 @@
+/* Generalized styles */
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Bilbo Swash Caps", sans-serif;
+  margin: 50px auto 0 auto;
+  font-size: 6rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  color: #144272;
+}
+
+hr {
+  background-color: auto;
+  border-top-style: dotted;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-color: #9ba4b4;
+  border-width: 5px;
+  width: 10%;
+}
+
+/* this if for the h2 tags outside of the .topContainer */
+
+.section-header {
+  color: #144272;
+}
+
+/* Below is the top container styling and it's items */
+
+.topContainer {
+  background-color: #144272;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+  color: white;
+}
+
+.cloud-1 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/* Below is the profile section styling and it's items */
+
+.middle-container {
+  font-family: "Lato", sans-serif;
+}
+
+.bio {
+  margin: 30px auto 30px auto;
+  width: 40.625em;
+}
+
+.profile {
+  padding: 50px;
+}
+
+.profilepic {
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+}
+
+/* Below is the styling fo the Skills section */
+
+.skills {
+  padding: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row-right {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  line-height: 2;
+  list-style-position: inside;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.servers {
+  width: 25%;
+  text-align: right;
+  float: right;
+  margin-left: 30px;
+  border-radius: 10%;
+}
+
+.mate {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* styling for the contact-me div and it's items */
+
+.contact-me {
+  margin: 20px auto 60px auto;
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+  line-height: 2;
+}
+
+.btn {
+  position: relative;
+  top: 20px;
+  background: #144272;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #9db7ff;
+  text-decoration: none;
+  color: #144272;
+}
+
+/* Styling on the bottom-container and its items */
+
+.bottom-container {
+  margin: 0;
+  background-color: #bbbfca;
+  font-family: "Lato", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(92, 92, 92);
+}
+
+.footer-link {
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #144272;
+}
+
+.copyright {
+  font-size: 0.75rem;
+}
+
+.attribution {
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+  padding: 10px;
+  font-size: 0.8rem;
+}
+
+.attribution:hover {
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #144272;
+}
